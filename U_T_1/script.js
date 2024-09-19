@@ -85,6 +85,30 @@ function mostrarContenidoPestana(numeroPestana) {
         case '20':
             cargarScript('daw220.js');
             break;
+        case '20':
+                cargarScript('daw220.js');
+                break;
+         case '21':
+            cargarScript('daw221.js');
+            break;
+        case '22':
+            cargarScript('daw222.js');
+            break;
+        case '23':
+            cargarScript('daw223.js');
+            break;
+        case '24':
+            cargarScript('daw224.js');
+            break;
+        case '25':
+            cargarScript('daw225.js');
+            break;
+        case '26':
+            cargarScript('daw226.js');
+            break;
+        case '27':
+            cargarScript('daw227.js');
+            break;
         default:
             console.log('Pestaña no encontrada');
     }
