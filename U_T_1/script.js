@@ -1,6 +1,5 @@
 // Seleccionar todas las pestañas
 const pestañas = document.querySelectorAll('nav ul li a');
-
 // Añadir un event listener a cada pestaña
 pestañas.forEach(pestana => {
     pestana.addEventListener('click', (event) => {
@@ -85,10 +84,7 @@ function mostrarContenidoPestana(numeroPestana) {
         case '20':
             cargarScript('daw220.js');
             break;
-        case '20':
-                cargarScript('daw220.js');
-                break;
-         case '21':
+        case '21':
             cargarScript('daw221.js');
             break;
         case '22':
