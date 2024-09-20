@@ -1,6 +1,5 @@
 // Seleccionar todas las pestañas
 const pestañas = document.querySelectorAll('nav ul li a');
-
 // Añadir un event listener a cada pestaña
 pestañas.forEach(pestana => {
     pestana.addEventListener('click', (event) => {
