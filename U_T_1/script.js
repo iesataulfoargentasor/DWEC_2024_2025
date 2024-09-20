@@ -105,7 +105,6 @@ function mostrarContenidoPestana(numeroPestana) {
         case '27':
             cargarScript('daw227.js');
             break;
-            
         default:
             console.log('Pestaña no encontrada');
     }
